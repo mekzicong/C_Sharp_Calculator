@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="350" Width="525">
+    <Grid><!--open tag-->
+        <StackPanel><!--Allow each element to stack each other-->
+            <Label/>
+            <TextBox/>
+            <TextBox/>
+            <Button/>
+        </StackPanel>
+    </Grid><!--closing tag-->
 </Window>
