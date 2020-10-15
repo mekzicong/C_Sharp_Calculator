@@ -5,13 +5,140 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid><!--open tag-->
-        <StackPanel><!--Allow each element to stack each other-->
-            <Label/>
-            <TextBox/>
-            <TextBox/>
-            <Button/>
-        </StackPanel>
+        Title="MainWindow" Height="525" Width="350">
+    <Grid><!--open tag, grid is a powerful element that can divide interface in to row and column-->
+        <!--<StackPanel VerticalAlignment="Center"
+                    Margin="10">Allow each element to stack each other
+            <Label Content="Result"
+                   Margin="0 0 0 10"/>
+            <TextBox Margin="0 0 0 10"/>
+            <TextBox Margin="0 0 0 10"/>
+            <Button Content="Calculate" 
+                    Margin="0 0 0 10"
+                    Background="DodgerBlue"
+                    Foreground="White"/>
+        </StackPanel>-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <!--use * to equally split the column,
+              use auto to fully use the column-->
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <!--2* it will divide the space 
+            according the total column-->
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Content="0"
+               x:Name="resultLabel"
+               Grid.ColumnSpan="4"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Bottom"
+               FontSize="60"/>
+        <Button x:Name="acButton" 
+                Content="AC"
+                Grid.Row="1"
+                Grid.Column="0"
+                Margin="5"/>
+        <Button x:Name="negativeButton" 
+                Content="+/-"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="5"/>
+        <Button x:Name="percentageButton" 
+                Content="%"
+                Grid.Row="1"
+                Grid.Column="2"
+                Margin="5"/>
+        <Button x:Name="divideButton" 
+                Content="/"
+                Grid.Row="1"
+                Grid.Column="3"
+                Margin="5"/>
+        <!--Click button 7 for handle function-->
+        <Button x:Name="sevenButton" 
+                Click="sevenButton_Click"
+                Content="7"
+                Grid.Row="2"
+                Grid.Column="0"
+                Margin="5"/>
+        <Button x:Name="eightButton" 
+                Content="8"
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="5"/>
+        <Button x:Name="nineButton" 
+                Content="9"
+                Grid.Row="2"
+                Grid.Column="2"
+                Margin="5"/>
+        <Button x:Name="multiplyButton" 
+                Content="*"
+                Grid.Row="2"
+                Grid.Column="3"
+                Margin="5"/>
+        <Button x:Name="fourButton" 
+                Content="4"
+                Grid.Row="3"
+                Grid.Column="0"
+                Margin="5"/>
+        <Button x:Name="fiveButton"
+                Content="5"
+                Grid.Row="3"
+                Grid.Column="1"
+                Margin="5"/>
+        <Button x:Name="sixButton" 
+                Content="6"
+                Grid.Row="3"
+                Grid.Column="2"
+                Margin="5"/>
+        <Button x:Name="minusButton" 
+                Content="-"
+                Grid.Row="3"
+                Grid.Column="3"
+                Margin="5"/>
+        <Button x:Name="oneButton" 
+                Content="1"
+                Grid.Row="4"
+                Grid.Column="0"
+                Margin="5"/>
+        <Button x:Name="twoButton" 
+                Content="2"
+                Grid.Row="4"
+                Grid.Column="1"
+                Margin="5"/>
+        <Button x:Name="threeButton" 
+                Content="3"
+                Grid.Row="4"
+                Grid.Column="2"
+                Margin="5"/>
+        <Button x:Name="plusButton" 
+                Content="+"
+                Grid.Row="4"
+                Grid.Column="3"
+                Margin="5"/>
+        <Button x:Name="zeroButton" 
+                Content="0"
+                Grid.Row="5"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="5"/>
+        <Button x:Name="dotButton" 
+                Content="."
+                Grid.Row="5"
+                Grid.Column="2"
+                Margin="5"/>
+        <Button x:Name="equalButton" 
+                Content="="
+                Grid.Row="5"
+                Grid.Column="3"
+                Margin="5"/>
     </Grid><!--closing tag-->
 </Window>
