@@ -3,7 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Calculator"
              StartupUri="MainWindow.xaml">
+    <!--other than windows.resources, we can use application resources-->
     <Application.Resources>
-         
+        <!--sources wide-->
+        <SolidColorBrush x:Key="numbersColor" 
+                         Color="#444444" />
+        <SolidColorBrush x:Key="operatorsColor" 
+                         Color="Green" />
+        <SolidColorBrush x:Key="foregroundColor"
+                         Color="White" />
+        <!--explicit-->
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="25"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="70" />
+        </Style>
+        <!--implicit use with style in element-->
+        <Style  TargetType="Button" x:Key="numberButtonStyle">
+            <Setter Property="Background" Value="{StaticResource operatorsColor}"/>
+        </Style>
+        <Style  TargetType="Button" x:Key="operatorButtonStyle" BasedOn="{StaticResource numberButtonStyle}">
+            <Setter Property="Background" Value="{StaticResource operatorsColor}"/>
+            <Setter Property="Foreground" Value="{StaticResource foregroundColor}"/>
+        </Style>
     </Application.Resources>
 </Application>
