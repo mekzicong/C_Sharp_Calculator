@@ -41,7 +41,7 @@ namespace Calculator {
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
-        #line 40 "..\..\MainWindow.xaml"
+        #line 47 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label resultLabel;
         
@@ -49,7 +49,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 45 "..\..\MainWindow.xaml"
+        #line 53 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button acButton;
         
@@ -57,7 +57,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 50 "..\..\MainWindow.xaml"
+        #line 59 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button negativeButton;
         
@@ -65,7 +65,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 56 "..\..\MainWindow.xaml"
+        #line 65 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button percentageButton;
         
@@ -73,7 +73,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 61 "..\..\MainWindow.xaml"
+        #line 73 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button divideButton;
         
@@ -81,7 +81,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 68 "..\..\MainWindow.xaml"
+        #line 82 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button sevenButton;
         
@@ -89,7 +89,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 74 "..\..\MainWindow.xaml"
+        #line 90 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button eightButton;
         
@@ -97,7 +97,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 80 "..\..\MainWindow.xaml"
+        #line 98 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button nineButton;
         
@@ -105,7 +105,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 86 "..\..\MainWindow.xaml"
+        #line 106 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button multiplyButton;
         
@@ -113,7 +113,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 92 "..\..\MainWindow.xaml"
+        #line 114 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button fourButton;
         
@@ -121,7 +121,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 98 "..\..\MainWindow.xaml"
+        #line 122 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button fiveButton;
         
@@ -129,7 +129,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 104 "..\..\MainWindow.xaml"
+        #line 130 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button sixButton;
         
@@ -137,7 +137,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 110 "..\..\MainWindow.xaml"
+        #line 138 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button minusButton;
         
@@ -145,7 +145,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 116 "..\..\MainWindow.xaml"
+        #line 146 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button oneButton;
         
@@ -153,7 +153,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 122 "..\..\MainWindow.xaml"
+        #line 154 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button twoButton;
         
@@ -161,7 +161,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 128 "..\..\MainWindow.xaml"
+        #line 162 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button threeButton;
         
@@ -169,7 +169,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 134 "..\..\MainWindow.xaml"
+        #line 170 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button plusButton;
         
@@ -177,7 +177,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 140 "..\..\MainWindow.xaml"
+        #line 179 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button zeroButton;
         
@@ -185,7 +185,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 147 "..\..\MainWindow.xaml"
+        #line 188 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button pointButton;
         
@@ -193,7 +193,7 @@ namespace Calculator {
         #line hidden
         
         
-        #line 153 "..\..\MainWindow.xaml"
+        #line 196 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button equalButton;
         
@@ -245,7 +245,7 @@ namespace Calculator {
             case 5:
             this.divideButton = ((System.Windows.Controls.Button)(target));
             
-            #line 62 "..\..\MainWindow.xaml"
+            #line 74 "..\..\MainWindow.xaml"
             this.divideButton.Click += new System.Windows.RoutedEventHandler(this.OperationButton_Click);
             
             #line default
@@ -254,7 +254,7 @@ namespace Calculator {
             case 6:
             this.sevenButton = ((System.Windows.Controls.Button)(target));
             
-            #line 69 "..\..\MainWindow.xaml"
+            #line 83 "..\..\MainWindow.xaml"
             this.sevenButton.Click += new System.Windows.RoutedEventHandler(this.NumberButton_Click);
             
             #line default
@@ -263,7 +263,7 @@ namespace Calculator {
             case 7:
             this.eightButton = ((System.Windows.Controls.Button)(target));
             
-            #line 75 "..\..\MainWindow.xaml"
+            #line 91 "..\..\MainWindow.xaml"
             this.eightButton.Click += new System.Windows.RoutedEventHandler(this.NumberButton_Click);
             
             #line default
@@ -272,7 +272,7 @@ namespace Calculator {
             case 8:
             this.nineButton = ((System.Windows.Controls.Button)(target));
             
-            #line 81 "..\..\MainWindow.xaml"
+            #line 99 "..\..\MainWindow.xaml"
             this.nineButton.Click += new System.Windows.RoutedEventHandler(this.NumberButton_Click);
             
             #line default
@@ -281,7 +281,7 @@ namespace Calculator {
             case 9:
             this.multiplyButton = ((System.Windows.Controls.Button)(target));
             
-            #line 87 "..\..\MainWindow.xaml"
+            #line 107 "..\..\MainWindow.xaml"
             this.multiplyButton.Click += new System.Windows.RoutedEventHandler(this.OperationButton_Click);
             
             #line default
@@ -290,7 +290,7 @@ namespace Calculator {
             case 10:
             this.fourButton = ((System.Windows.Controls.Button)(target));
             
-            #line 93 "..\..\MainWindow.xaml"
+            #line 115 "..\..\MainWindow.xaml"
             this.fourButton.Click += new System.Windows.RoutedEventHandler(this.NumberButton_Click);
             
             #line default
@@ -299,7 +299,7 @@ namespace Calculator {
             case 11:
             this.fiveButton = ((System.Windows.Controls.Button)(target));
             
-            #line 99 "..\..\MainWindow.xaml"
+            #line 123 "..\..\MainWindow.xaml"
             this.fiveButton.Click += new System.Windows.RoutedEventHandler(this.NumberButton_Click);
             
             #line default
@@ -308,7 +308,7 @@ namespace Calculator {
             case 12:
             this.sixButton = ((System.Windows.Controls.Button)(target));
             
-            #line 105 "..\..\MainWindow.xaml"
+            #line 131 "..\..\MainWindow.xaml"
             this.sixButton.Click += new System.Windows.RoutedEventHandler(this.NumberButton_Click);
             
             #line default
@@ -317,7 +317,7 @@ namespace Calculator {
             case 13:
             this.minusButton = ((System.Windows.Controls.Button)(target));
             
-            #line 111 "..\..\MainWindow.xaml"
+            #line 139 "..\..\MainWindow.xaml"
             this.minusButton.Click += new System.Windows.RoutedEventHandler(this.OperationButton_Click);
             
             #line default
@@ -326,7 +326,7 @@ namespace Calculator {
             case 14:
             this.oneButton = ((System.Windows.Controls.Button)(target));
             
-            #line 117 "..\..\MainWindow.xaml"
+            #line 147 "..\..\MainWindow.xaml"
             this.oneButton.Click += new System.Windows.RoutedEventHandler(this.NumberButton_Click);
             
             #line default
@@ -335,7 +335,7 @@ namespace Calculator {
             case 15:
             this.twoButton = ((System.Windows.Controls.Button)(target));
             
-            #line 123 "..\..\MainWindow.xaml"
+            #line 155 "..\..\MainWindow.xaml"
             this.twoButton.Click += new System.Windows.RoutedEventHandler(this.NumberButton_Click);
             
             #line default
@@ -344,7 +344,7 @@ namespace Calculator {
             case 16:
             this.threeButton = ((System.Windows.Controls.Button)(target));
             
-            #line 129 "..\..\MainWindow.xaml"
+            #line 163 "..\..\MainWindow.xaml"
             this.threeButton.Click += new System.Windows.RoutedEventHandler(this.NumberButton_Click);
             
             #line default
@@ -353,7 +353,7 @@ namespace Calculator {
             case 17:
             this.plusButton = ((System.Windows.Controls.Button)(target));
             
-            #line 135 "..\..\MainWindow.xaml"
+            #line 171 "..\..\MainWindow.xaml"
             this.plusButton.Click += new System.Windows.RoutedEventHandler(this.OperationButton_Click);
             
             #line default
@@ -362,7 +362,7 @@ namespace Calculator {
             case 18:
             this.zeroButton = ((System.Windows.Controls.Button)(target));
             
-            #line 141 "..\..\MainWindow.xaml"
+            #line 180 "..\..\MainWindow.xaml"
             this.zeroButton.Click += new System.Windows.RoutedEventHandler(this.NumberButton_Click);
             
             #line default
@@ -371,7 +371,7 @@ namespace Calculator {
             case 19:
             this.pointButton = ((System.Windows.Controls.Button)(target));
             
-            #line 148 "..\..\MainWindow.xaml"
+            #line 189 "..\..\MainWindow.xaml"
             this.pointButton.Click += new System.Windows.RoutedEventHandler(this.pointButton_Click);
             
             #line default
